@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.container {
+    background-color:lightblue;
+    height: 275px;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+p#display{
+    border: grey 1px solid;
+    margin: 0;
+    padding:10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.buttons {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    width: 150px;
+}
+
+.row:nth-child(4){
+    justify-content: space-between;
+}
+/* extra display for 4th row under buttons container: the spacing should be space-between*/
+.btn {
+    height: 30px;
+    width: 50px;
+}
